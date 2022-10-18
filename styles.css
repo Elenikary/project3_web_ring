@@ -1,0 +1,670 @@
+body {
+  background-color: black;
+}
+
+/*parallax scrolling code*/
+
+/*window 1*/
+.parallax1 { 
+    background-image: url("background_1.jpg");
+  
+    /* Set a specific height */
+    height: 650px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: -30px;
+
+  }
+
+  .ellipse {
+    background-color: rgba(255,183,116,0.6);
+    border-radius: 50%;
+    width: 50%;
+    height:50%;
+    top: 25%;
+    position: relative;
+    margin: auto;
+}
+
+  h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    font-style: italic;
+
+    color: black;
+    padding: 15%;
+    z-index: +1;
+  }
+
+  /*window 2*/
+  .parallax2 { 
+    background-image: url("explosion-icegif-7.gif");
+  
+    /* Set a specific height */
+    height: 650px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: -25px;
+  }
+
+  .rectangle {
+    background-color: rgba(0,0,0,0.25);
+    width: 75%;
+    height:85%;
+    top: 10%;
+    position: relative;
+    margin: auto;
+}
+
+#text1{
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: 'VT323', monospace;  
+  font-style: italic;
+  color: black;
+  padding: 15%;
+}
+
+
+  /*window 3*/
+  .parallax3 { 
+    background-color: black;
+  
+    /* Set a specific height */
+    height: 650px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: -25px;
+  }
+
+  .rectangle-2 {
+    background-color: rgba(194, 90, 43,1);
+    width: 75%;
+    height:85%;
+    top: 10%;
+    border: none;
+    border-radius: 40px 10px;
+    position: relative;
+    margin: auto;
+}
+
+#text2{
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: 'VT323', monospace;  
+  font-style: italic;
+
+  color: black;
+  padding: 15%;
+}
+
+
+/*window 4*/
+.parallax4 { 
+  background-image: url("station11_landscape.jpg");
+
+  /* Set a specific height */
+  height: 650px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: -25px;
+}
+
+.rectangle-3 {
+  background-color: rgba(0,0,0,0.25);
+  width: 75%;
+  height:85%;
+  top: 10%;
+  position: relative;
+  margin: auto;
+}
+
+#text3{
+text-align: center;
+font-size: 40px;
+text-transform: uppercase;
+font-family: 'VT323', monospace;  
+font-style: italic;
+
+color: #849b8e;
+padding: 15%;
+}
+
+/*window 5*/
+.parallax5 { 
+  background-image: url("ash.jpg"); 
+
+  /* Set a specific height */
+  height: 650px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: -25px;
+}
+
+.rectangle-4 {
+  background-color: rgba(0,0,0,0.4);
+  width: 75%;
+  height:85%;
+  top: 10%;
+  position: relative;
+  margin: auto;
+}
+
+#text4{
+text-align: center;
+font-size: 40px;
+text-transform: uppercase;
+font-family: 'VT323', monospace;  
+font-style: italic;
+
+color: black;
+padding: 15%;
+}
+
+/*window 6*/
+.parallax6 { 
+  /* The image used */
+  background-color: black;
+
+  /* Set a specific height */
+  height: 650px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: -25px;
+}
+
+.rectangle-5 {
+  background-color: rgba(205,219,228);
+  width: 75%;
+  height:85%;
+  border: none;
+  border-radius: 40px 10px;
+  top: 10%;
+  position: relative;
+  margin: auto;
+}
+
+#text5{
+text-align: center;
+font-size: 40px;
+text-transform: uppercase;
+font-family: 'VT323', monospace;  
+font-style: italic;
+
+color: black;
+padding: 15%;
+}
+
+
+/*window 7*/
+.parallax7 { 
+  background-image: url("starry_night.jpg"); 
+  /* Set a specific height */
+  height: 650px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -25px;
+}
+
+#text6{
+text-align: center;
+font-size: 100px;
+text-transform: uppercase;
+font-family: 'VT323', monospace;  
+font-style: italic;
+
+color: WHITE;
+padding: 15%;
+}
+
+/*window 8*/
+.parallax8 { 
+  background-image: url("big-star.jpg"); /*change the image/ need better quality*/
+  /* Set a specific height */
+  height: 650px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -25px;
+}
+
+#text7{
+text-align: center;
+font-size: 50px;
+text-transform: uppercase;
+font-family: 'VT323', monospace;  
+font-style: italic;
+
+color: WHITE;
+padding: 12%;
+}
+
+/*window 9*/
+.parallax9 { 
+  background-image: url("spaceship_new.jpg"); 
+  /* Set a specific height */
+  height: 650px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -25px;
+}
+
+.rectangle-6 {
+  background-color: rgba(0,0,0,0.4);
+
+  width: 30%;
+  height:60%;
+  
+  top: 10%;
+  position: relative;
+  margin-left: 55%;
+  margin-top: 20%;
+}
+
+
+#text8{
+text-align: center;
+font-size: 30px;
+text-transform: uppercase;
+font-family: 'VT323', monospace;  
+font-style: italic;
+
+color: WHITE;
+padding-left: 12%;
+}
+
+
+/*window 10*/
+.parallax10 { 
+  background-color: black; 
+
+  /* Set a specific height */
+  height: 650px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: -25px;
+}
+
+.rectangle-7 {
+  background-color: blue;
+  width: 70%;
+  height:70%;
+  border: none;
+  border-radius: 40px 10px;
+  top: 10%;
+  position: relative;
+  margin: auto;
+}
+
+#text9{
+text-align: center;
+font-size: 40px;
+text-transform: uppercase;
+font-family: 'VT323', monospace;  
+font-style: italic;
+
+color: white;
+padding: 15%;
+}
+
+/*window 11*/
+.parallax11 { 
+  background-color: black; 
+
+  /* Set a specific height */
+  height: 650px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: -25px;
+}
+
+.rectangle-8 {
+  background-color: #5F42FF;
+  width: 70%;
+  height:70%;
+  border-radius: 50%;
+  top: 10%;
+  position: relative;
+  margin: auto;
+}
+
+#text10{
+text-align: center;
+font-size: 30px;
+text-transform: uppercase;
+font-family: 'VT323', monospace;  
+font-style: italic;
+
+color: white;
+padding: 13%;
+}
+
+/*window 12*/
+.parallax12 { 
+  background-color: black; 
+
+  /* Set a specific height */
+  height: 650px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: -25px;
+}
+
+.rectangle-9 {
+  background-color: #55ff42;
+  width: 60%;
+  height:60%;
+  border: none;
+  border-radius: 40%;
+  top: 10%;
+  position: relative;
+  margin: auto;
+}
+
+#text11{
+text-align: center;
+font-size: 35px;
+text-transform: uppercase;
+font-family: 'VT323', monospace;  
+font-style: italic;
+
+color: black;
+padding: 13%;
+}
+
+/*window 13*/
+.parallax13 { 
+  background-image: url("leash.jpg");
+
+  /* Set a specific height */
+  height: 650px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: -25px;
+}
+
+.rectangle-10 {
+  background-color: rgba(0,0,0,0.25);
+  width: 60%;
+  height:60%;
+  border: none;
+  border-radius: 40px 10px;
+  top: 10%;
+  position: relative;
+  margin: auto;
+}
+
+#text12{
+text-align: center;
+font-size: 35px;
+text-transform: uppercase;
+font-family: 'VT323', monospace;  
+font-style: italic;
+
+color: black;
+padding: 9%;
+}
+
+/*window 14*/
+.parallax14 { 
+  background-image: black;
+
+  /* Set a specific height */
+  height: 650px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: -25px;
+}
+
+.rectangle-11 {
+  background-color: #FF10F0;
+  width: 60%;
+  height:60%;
+  border-radius: 50%;
+  top: 10%;
+  position: relative;
+  margin: auto;
+}
+
+#text13{
+text-align: center;
+font-size: 40px;
+text-transform: uppercase;
+font-family: 'VT323', monospace;  
+font-style: italic;
+
+color: black;
+padding: 17%;
+}
+
+
+/* BUTTON */
+
+/* modify the colors of the buttons */
+.button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: #9D00FF;
+  background-color: black;
+  cursor: pointer;
+  border: 3px solid;
+
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  margin-top: 30px;
+  margin-left:12%;
+  margin-right: 12%;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+/* RANDOMIZER BUTTON */
+.button-random {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: #39FF14; 
+  background-color: black;
+  cursor: pointer;
+  border: 3px solid;
+
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  margin-top: 30px;
+  margin-left:42%;
+  margin-bottom: 20%;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-random:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .button {
+    padding: 0.25em 0.75em;
+    display: block;
+    margin: auto;
+  }
+  .button-random {
+    padding: 0.25em 0.75em;
+    display: block;
+    margin: auto;
+  }
+
+  #text1{
+    font-size: 25px;
+    text-align: center;
+    padding: 22%;
+    margin: auto;
+  }
+
+  #text2, #text3, #text7, #text8 {
+    font-size: 25px;
+    text-align: center;
+    padding: 5%;
+    margin: auto;
+  }
+
+  #text4, #text5,#text9,#text11,#text12{
+    font-size: 20px;
+    text-align: center;
+    padding: 5%;
+    margin: auto;
+  }
+
+  #text13  {
+    font-size: 35px;
+    text-align: center;
+    padding: 5%;
+    margin: auto;
+  }
+
+  #text10 {
+    font-size: 17px;
+    text-align: center;
+    padding: 3%;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
+    padding: 25%;
+    margin: auto;
+  }
+
+  .ellipse, .rectangle, .rectangle-2, .rectangle-3, .rectangle-6, .rectangle-7 {
+    width: 40%;
+    height:40%;
+    top: 10%;
+    position: relative;
+    margin: auto;
+    padding: 3%;
+  }
+
+
+  .rectangle-7 {
+    width: 40%;
+    height:30%;
+    top: 10%;
+    position: relative;
+    margin: auto;
+    padding: 5%;
+  }
+
+  .rectangle-5, .rectangle-4 {
+    width: 35%;
+    height:35%;
+    top: 10%;
+    position: relative;
+    margin: auto;    
+    padding: 10%;
+
+  }
+
+  .rectangle-9, .rectangle-10, .rectangle-11,  .rectangle-8 {
+    width: 40%;
+    height:40%;
+    top: 10%;
+    position: relative;
+    margin: auto;    
+    padding: 10%;
+  }
+
+}
+
+
+
+
+
+footer{
+  height: 150px;
+  margin: auto;
+}
